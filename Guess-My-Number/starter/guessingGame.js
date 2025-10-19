@@ -11,7 +11,7 @@ let secretNumber = Math.trunc(Math.random()* 20) + 1;
 document.querySelector('.number').textContent = secretNumber
 
 
-let score = 20;
+let score = 30;
 
 document.querySelector('.check').addEventListener
 ('click',function(){
