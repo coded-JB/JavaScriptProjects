@@ -31,8 +31,8 @@ document.querySelector('.check').addEventListener
      
 
     } else if(guess > secretNumber){
-        if(score > 0){
-          document.querySelector('.message').textContent = "Too High";
+        if(score > 1){
+          document.querySelector('.message').textContent = "Too big";
           score--;
           document.querySelector('.score').textContent = score;
         }else{
